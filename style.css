@@ -1,0 +1,151 @@
+body {
+  font: Arial, Helvetica, sans-serif;
+}
+#container {
+  width: 1050px;
+  /* border: 1px solid gray; */
+  margin: 0 auto;
+}
+#brand {
+  float: left;
+  /* margin: 5px; */
+}
+#header {
+  height: 100px;
+  padding: 10px 0;
+}
+h1 a {
+  font-size: 50px;
+  font-weight: 100;
+  color: black;
+  text-decoration: none;
+}
+#searchbox {
+  float: right;
+  background: linear-gradient(#e4f2b9, #b7e953);
+  width: 400px;
+  height: 50px;
+  padding: 20px 0px 0 10px;
+  margin-top: 20px;
+  margin-left: 13px;
+}
+.text {
+  float: left;
+  width: 200px;
+  padding: 5px;
+  font-size: 15px;
+  color: orange;
+  background: white url(image/search.png) right center no-repeat;
+  border: 1px white;
+}
+
+.submit {
+  float: right;
+  padding: 7px 11px 5px 19px;
+  background: orchid;
+  font-weight: bold;
+  font-size: 15px;
+  color: white;
+  border: 1px #ffffff;
+  margin-right: 9px;
+}
+.clear {
+  clear: both;
+}
+#menu {
+  height: 70px;
+  background: linear-gradient(#f8f594, #d5d333);
+  padding: 20px 0;
+}
+ul {
+  list-style: none;
+}
+#menu ul li {
+  float: left;
+  padding: 20px 30px;
+  height: 20px;
+  border-right: 1px solid #5d12e7;
+}
+#menu ul li:last-child {
+  border-right: none;
+}
+
+#menu ul li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 20px;
+  color: blueviolet;
+  line-height: 20px;
+  transition: 0.5s ease;
+}
+#menu ul li a:hover,
+#menu ul li a.active {
+  font-size: 20px;
+  font-weight: bold;
+  color: purple;
+}
+#introduction {
+  background: linear-gradient(#26310f, #b7e953);
+  padding: 30px;
+  margin: 16px 0;
+}
+#introduction h3 {
+  font-size: 45px;
+  color: rgba(5, 21, 46, 0.452);
+}
+#introduction p {
+  font-size: 25px;
+  color: rgb(83, 8, 153);
+  text-align: justify;
+}
+.sidebar {
+  height: 600px;
+  width: 430px;
+  /* border: 1px solid #b7e953; */
+  border-radius: 20px;
+  padding: 10px 35px;
+}
+.sidebar h3 {
+  color: rgb(236, 153, 28);
+  font-size: 40px;
+}
+.sidebar ul li a {
+  text-decoration: none;
+  font-size: 20px;
+  color: #ff5df1;
+}
+.sidebar ul li a:hover,
+.sidebar ul li a.active {
+  text-decoration: none;
+  color: #b314db;
+  font-size: 30px;
+  font-weight: bold;
+}
+#leftsidebar {
+  float: left;
+}
+.sidebar ul {
+  padding-top: 10px;
+}
+#leftsidebar ul li {
+  background: url(image/arrow.png) no-repeat left center;
+  padding: 1px 0px 20px 100px;
+}
+#rightsidebar {
+  float: right;
+}
+#rightsidebar ul li {
+  padding: 20px 0px 20px 70px;
+  background: url(image/tick.png) no-repeat left center;
+}
+.footer {
+  height: 60px;
+  background: linear-gradient(#f8f594, #d5d333);
+  margin-top: 20px;
+  margin-bottom: 40px;
+  padding: 20px 30px;
+  text-align: center;
+  font-size: x-large;
+  font: outline;
+  color: rgb(164, 85, 255);
+}
