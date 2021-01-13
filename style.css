@@ -35,7 +35,7 @@ h1 a {
   padding: 5px;
   font-size: 15px;
   color: orange;
-  background: white url(image/search.png) right center no-repeat;
+  background: white url(search.png) right center no-repeat;
   border: 1px white;
 }
 
@@ -128,7 +128,7 @@ ul {
   padding-top: 10px;
 }
 #leftsidebar ul li {
-  background: url(image/arrow.png) no-repeat left center;
+  background: url(arrow.png) no-repeat left center;
   padding: 1px 0px 20px 100px;
 }
 #rightsidebar {
@@ -136,7 +136,7 @@ ul {
 }
 #rightsidebar ul li {
   padding: 20px 0px 20px 70px;
-  background: url(image/tick.png) no-repeat left center;
+  background: url(tick.png) no-repeat left center;
 }
 .footer {
   height: 60px;
